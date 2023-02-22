@@ -1,0 +1,163 @@
+body {
+    font-family:'Courier New', Courier, monospace;
+    color: darkslategrey;
+    text-align: justify;
+    background: lightgray;
+}
+#contenedor{
+    padding: 5;
+    margin-top: 50px;
+}
+
+#menuhorizontal ul{
+    list-style-type: none;
+    text-align: center;
+ }
+ #menuhorizontal li{
+    display: inline;
+    text-align: center;
+    margin: 0 10px 0 0;
+ }
+ #menuhorizontal li a {
+    padding: 2px 7px 2px 7px;
+    color: #666;
+    background-color: #eeeeee;
+    border: 1px solid #ccc;
+    text-decoration: none;
+ }
+ #nmenuhorizontal li a:hover{
+    background-color: #333333;
+    color: #ffffff;
+ }
+
+#header{
+    display: grid;
+    grid-template-columns: 2fr, 5fr;
+    background:rgb(35, 68, 68);
+    color: aliceblue;
+}
+
+#linea{
+    width: 580 px;
+    height: 5px;
+    margin-top: 20px;
+    background: #fcfcfe;
+}
+
+#nombre{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode',  Verdana, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 0.3em;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+#descripcion{
+    letter-spacing: 0.3px;
+    margin-top: 30px;
+    font-size: 2.2em;
+}
+
+#imagen{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 30px;
+    width: 130px;
+    height: 130px;
+
+    border:  3px solid #fcfcfe;
+    border-radius: 81px;
+}
+
+#tituloH4{
+    background:darkslategrey  ;
+    padding: 10px;
+    color: black;
+    text-transform: uppercase;
+
+}
+
+#experiencia-contenedor{
+    margin-right: 20px;
+    display: grid;
+    grid-template-columns: 1fr 2fr 4fr;
+
+}
+
+#educacion-contenedor{
+    margin-right: 20px;
+    display: grid;
+    grid-template-columns: 1fr 2fr 4fr;
+
+}
+
+#ui{
+    display: grid;
+    grid-template-columns: 0.2fr 0.5fr;
+
+}
+.content{
+    display: grid;
+    grid-template-columns: 1fr 1 fr;
+
+}
+
+#encabezado{
+ margin-top: 0px;
+}
+
+#progress-bar{
+    background: #cdcdcf;
+    height: 10px;
+    margin-top: 5px;
+    width: 100px;
+
+}
+
+#head{
+     font-weight: bold;
+}
+
+ul {
+    list-style: none;
+    padding: 0px;
+
+
+}
+
+
+
+#progress1{
+    background: #202c38;
+    height:  10px;
+    width: 90px;
+}
+#progress2{
+    background: #202c38;
+    height:  10px;
+    width: 55px;
+}
+
+#progress3{
+    background: #202c38;
+    height:  10px;
+    width: 30px;
+}
+
+
+
+#contenedor-contacto{
+    padding: 5;
+    margin-top: 50px;
+}
+
+.header {
+    color: #057263;
+    font-size: 27px;
+    padding: 50px;
+}
+
+.bigicon {
+    font-size: 35px;
+    color: #045843;
+}
